@@ -24,7 +24,10 @@ body {
 .nome {
   background: #cccccc;
   padding: 10px 20px;
-  font-size: 0.8rem;
+}
+
+.nome h1 {
+  font-size: 1.5rem !important;
 }
 
 .nome h1,
@@ -41,7 +44,8 @@ body {
 
 #perfil,
 #cards,
-#carrossel {
+#carrossel,
+#colegas {
   margin-bottom: 20px;
 }
 
@@ -74,6 +78,10 @@ body {
   flex: 1;
 }
 
+.bold {
+  font-weight: 700 !important;
+}
+
 .conteudo-superior {
   margin-bottom: 10px;
 }
@@ -91,6 +99,10 @@ body {
 
 .conteudo-info p {
   margin-bottom: 5px;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .conteudo-social {
@@ -126,4 +138,97 @@ body {
 
 .carousel-item p {
   color: white;
+}
+
+.colegas-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.colegas-row img {
+  width: 80px;
+  padding: 2px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: cadetblue;
+}
+
+.colegas-row p {
+  color: blue;
+  text-align: center;
+}
+
+.footer {
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.footer p {
+  padding: 20px;
+}
+
+/* repos */
+.repo-container {
+  margin-top: 20px;
+}
+
+.repo-container h3 {
+  color: blue;
+}
+
+.repo-descricao {
+  margin-left: 30px;
+}
+
+.dados-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.desenhos {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.desenhos img {
+  width: 25px;
+}
+
+.data a {
+  color: #000000;
+}
+
+.tags {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.tags p {
+  padding: 3px 7px;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 828px) {
+  .header,
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav {
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .container-repo {
+    margin-right: 20px;
+  }
 }
