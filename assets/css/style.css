@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+  font-family: "Nanum Gothic Coding", monospace !important;
+  font-weight: 400 !important;
+  color: #000000;
+}
+
+body {
+  margin: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nome {
+  background: #cccccc;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+
+.nome h1,
+.nav a {
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  font-size: 1.5rem;
+}
+
+#perfil,
+#cards,
+#carrossel {
+  margin-bottom: 20px;
+}
+
+.sessao-titulo {
+  border-bottom: solid 2px #000000 !important;
+  padding-bottom: 5px !important;
+}
+
+.sessao-titulo h2 {
+  font-weight: 700 !important;
+}
+
+.foto-perfil img {
+  width: 200px;
+  padding: 2px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: cadetblue;
+}
+
+.sessao {
+  display: flex;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.sessao-direita {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.conteudo-superior {
+  margin-bottom: 10px;
+}
+
+.conteudo-superior h3 {
+  color: blue;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.conteudo-inferior {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo-info p {
+  margin-bottom: 5px;
+}
+
+.conteudo-social {
+  width: 25px;
+  margin-top: auto;
+}
+
+.conteudo-icone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.conteudo-icone img {
+  width: 25px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card-link img {
+  width: 25px;
+}
+
+#carouselExampleCaptions {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.carousel-item p {
+  color: white;
+}
